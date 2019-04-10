@@ -45,9 +45,9 @@ end
 
 def until_iterator(number_of_times)
   x = 1
-  until x >= number_of_times
+  until x > number_of_times
 puts "Welcome to Flatiron School's Web Development Course!"
-  x += 1
+  x +=
 
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
