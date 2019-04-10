@@ -32,7 +32,7 @@ end
 end
 
 def while_iterator(number_of_times)
-  x = 0
+  x = 1
   while x <= number_of_times
     puts "Welcome to Flatiron School's Web Development Course!"
       x += 1
