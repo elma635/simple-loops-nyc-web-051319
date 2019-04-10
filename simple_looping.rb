@@ -24,14 +24,14 @@ end
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times.times do
-    puts phrase 
+    puts phrase
   # code your solution here using the "times" keyword
 
 end
 end
 
 def while_iterator(number_of_times)
-  x = 0 
+  x = 0
   while x <= number_of_times
       number_of_times += 7
     puts "Welcome to Flatiron School's Web Development Course!"
