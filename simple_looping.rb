@@ -31,7 +31,8 @@ end
 end
 
 def while_iterator(number_of_times)
-  while number_of_times == 7
+  x = 0 
+  while x <= number_of_times
       number_of_times += 7
     puts "Welcome to Flatiron School's Web Development Course!"
   # code your solution here using the "while" keyword
