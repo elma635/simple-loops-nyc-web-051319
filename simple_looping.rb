@@ -27,7 +27,7 @@ end
 end
 
 def while_iterator(number_of_times)
-  while number_of_times <= 7
+  while number_of_times == 7
       number_of_times += 7
     puts "Welcome to Flatiron School's Web Development Course!"
   # code your solution here using the "while" keyword
@@ -45,7 +45,7 @@ puts "Welcome to Flatiron School's Web Development Course!"
   # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
 end
-end 
+end
 
 def for_iterator(number_of_times)
     for number_of_times in 1..7
