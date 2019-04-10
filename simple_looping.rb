@@ -3,7 +3,8 @@
 def loop_iterator(number_of_times)
   loop do
 puts "Welcome to Flatiron School's Web Development Course!"
-    break if loop_iterator == 7
+
+    break if loop_iterator == number_of_times 
   end
 
   # Code your solution here using the "loop" keyword to puts out the below phrase
