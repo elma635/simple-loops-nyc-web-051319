@@ -37,7 +37,7 @@ end
 end
 
 def until_iterator(number_of_times)
-  until number_of_times == 7
+  until until_iterator == 7
 puts "Welcome to Flatiron School's Web Development Course!"
   until_iterator += 7
 
